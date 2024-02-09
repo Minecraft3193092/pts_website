@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1"/>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <link rel="alternate" hreflang="zh-tw" href="https://www.pts.org.tw/" />
+        
+    <meta name="description" content="公共電視"/>
+    <meta name="copyright" content="PTS"/>
+    <title>你的公共電視 - Taiwan Public Television Service Online</title>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="你的公共電視 - Taiwan Public Television Service Online"/>
+    <meta property="og:url" content="https://www.pts.org.tw/"/>
+    <meta property="og:image" content="https://www.pts.org.tw/All/pts.jpg"/>
+    <meta property="og:site_name" content="PTS"/>
+    <meta property="og:description" content="台灣公共電視台官方網站，提供節目表最新消息，以及新聞資訊. Taiwan Public Television Service's official website with online news, profile, and press releases."/>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.pts.org.tw/HomePage/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.pts.org.tw/HomePage/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.pts.org.tw/HomePage/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.pts.org.tw/HomePage/favicon/site.webmanifest">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/navbar.css"/>
+    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/footer.css"/>
+    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/footer_20200420.css"/>
+    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/owlcarousel/owl.carousel.css"/>
+    <!-- <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/frame_header.css"/>
+    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/extend.css"/>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TP3WX6F');</script>
+    <!-- End Google Tag Manager -->    <link rel="stylesheet" href="https://www.pts.org.tw/HomePage/_css/all.css"/>
+  </head>
+  <body><!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP3WX6F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="frame_header">
+      <ul class="frame_header_list">
+        <!--
+          <li class="frame_header_list-item">
+            <a
+              title="網站導覽"
+              href="#"
+              class="frame_header_list-item-link"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span class="frame_header_list-item-icon">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g clip-path="url(#c)">
+                    <rect x="2" y="2" width="20" height="20" fill="url(#a)" />
+                  </g>
+                  <defs>
+                    <pattern
+                      id="a"
+                      width="1"
+                      height="1"
+                      patternContentUnits="objectBoundingBox"
+                    >
+                      <use transform="scale(.0078125)" xlink:href="#b" />
+                    </pattern>
+                    <clipPath id="c">
+                      <rect width="24" height="24" fill="#fff" />
+                    </clipPath>
+                    <image
+                      id="b"
+                      width="128"
+                      height="128"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAEnAAABJwBrnOJRQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAUUSURBVHic7d3Na1xVGMfx70wSIwZp2tomWrWgbRGk3bhyJ0UFQfF1IRVfi4JWEan4B4h7V7rShRuxtIhoQVFjK4qCuLChvoLailotVSyNrU4T4+JMYDrNvTM3Pc85N/P8PnCgyaTnnOfcXyZ3Zu4LiIiIiIiIiIiIiIiIyMBq5J5AiRHgfuAuYD1wXt7pVNYCDgF7gFeA2ayzWWYmgM+B+QFpn7Vrkj40gU/Iv9Fit4/btUkPd5J/Y1m12yKuUxR1TOTNuSdg6JbcE+hWxwBcmnsChi7LPYFudQzAUO4JGBrOPYFudQyAJKQAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOKcAOFfHAPydewKGZnJPoFsdAzCdewKGDuSewHKwCThN/tO4YrcWsCHiOg20Z8i/wWK3nVFXyIGHgT/Iv+HOtR0DHoq8NtHU+QIRABcAW4ErgfMj9bkN2FLw2DTwaqRxTgHfA/uAk5H6lAh2UfzbuivjvLKo46sASUgBcE4BcE4BcE4BcE4BcE4BcE4BcE4BcE4BcE4BcE4BcE4BcE4BcC7G8QATwB2EizxfAayN1K+VMYpvPtGi3gelzgNHgR+At4DX219nMQY8R1iw3EfdeG0zwLOEA2eSWsdg3dFjubcvCLfVSWICOGxckFr19iPhz6+pJvBR5kLVituHGO/Y31eDItXK2z2FW28RVffWvwM2Vvw/kta3wFX9/nCVAGyh96lNe4D3gT8r9JvaU8C1BY99CjyfcC5VrQJuINxYq8xm4GDswZ+k/KlnR+wBjQzCYeGPU74tnui3oyo7DGU3czoMvFihLzk3LxDWvEjfN6eqEoCLSh77ipA8SWOesOZF1vTbUZUAlO0v6L646ZWted/7dvowyDkFwDkFwDkFwDkFwDkFwDkFwDkFwDkFwDkFwDkFwDkFwLnhgu+vBS7uenx1ST/jwDUdX88Bv7VbThPAJGfWsbLk51dyZh2zhBp+jz+1Sibbbajje+MlP7+as+s4Qo9zCJqEK1pOE+/4tK+BRykOmoVh4BHgy4h1HCRcubRzA1gbIRxk803EOg4AD7DIM/8YsDfiQN3tA8oTG8uFwLuGdbzTHsPaOLDfsI436TqZZLfhYJ2LZ3nKWINwupR1HW8Y1gDht/O9BHW8tjDgTQkGW2h3R1qkxdyesI5bDevYlrCOGyGcYJhqwKl463SWtxPWsdewjv0J69jdIOwdThoW1Okfwt+eeYO+/wJWGPRbNFbZq4mlahCuMj5q0PdijjQIL9lSvh8wDhyP3OcoIVwpjRJOJ49pBSFcqcw1Sf9mkMVLqRxvaFnUkfJlJsCQ3gl0TgFwTgFwTgFwTgFwTgFwTgFwTgFwTgFwTgFwTgFwTgFwTgFwrkn6j1EtxmsB/xn0W2SO+B8FQ4Zt0QR+SjjgUWxupT4H/GLQb5Gf22PGdhI4ZtBvkUNNwqFUqViOpTqWONZ6wmFI1sefzQJXGxazifC0bF3Hv8AGwzo2E9bKuo5TwOULg25PMODOWCtUotcVNGO0xxLU8XSCOh7sHvRewrF6sQeaIZwdlMp24IRBHScIZ06lsgObu7Ecp+OK4t0naqwhLOD1hLuCFN1bp5fTwK/APuDl9r9TmiTUsRW4hKXX0SLMfYpQR+pzBNcR6riOUMfIEvtpEXZcp4CXSLujKSIiIiIiIiIiIiIiIrn8D/YUBvVIigjuAAAAAElFTkSuQmCC"
+                    />
+                  </defs>
+                </svg>
+              </span>
+              <span class="frame_header_list-item-text">網站導覽</span>
+            </a>
+          </li>
+        -->
+        <li class="frame_header_list-item">
+          <a
+            title="關於公視"
+            href="//info.pts.org.tw/"
+            class="frame_header_list-item-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <span class="frame_header_list-item-icon">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#a)">
+                  <path
+                    d="m12.323 16.024c1.7694-0.3176 2.9451-2.0015 2.6263-3.7641s-2.0092-2.9366-3.7757-2.6191c-1.7694 0.31755-2.948 2.0015-2.6292 3.7641 0.31586 1.7655 2.0092 2.9366 3.7786 2.6191z"
+                    fill="#E60012"
+                  />
+                  <path
+                    d="m9.3103 17.662 0.87743 4.8741 0.7955 0.5419 4.2816-6.1297c-0.7077 0.603-1.5793 1.0313-2.559 1.2061-1.2021 0.2127-2.3836 0.0146-3.3955-0.4924z"
+                    fill="#004098"
+                  />
+                  <path
+                    d="m16.841 8.0564c-0.3042-0.54188-0.1931-1.5499 0.4474-1.7567 0.0088-0.00292 0.0205-0.00583 0.0293-0.00874 0.0058-0.00292 0.0117-0.00583 0.0175-0.00583 0.1375-0.04661 0.2691-0.08449 0.3978-0.12236l-1.9478-1.3139c-0.1199 0.2418-0.2837 0.40205-0.4884 0.5448-1.0821 0.75164-2.1087 0.18354-2.3807-0.6555-0.1725-0.53315-0.0146-1.2061 0.1755-1.681l-0.5177-0.38747-4.0857 5.8471c0.65805-0.49236 1.436-0.84488 2.3017-0.99929 2.948-0.52731 5.7674 1.4276 6.2967 4.3642 0.1755 0.9789 0.0761 1.9403-0.2456 2.8114l4.3196-6.1822-0.2222-0.19519c-1.0119 0.1748-2.2286 0.45738-2.2286 0.45738-1.085 0.30008-1.5588-0.17771-1.8688-0.71668z"
+                    fill="#004098"
+                  />
+                  <path
+                    d="m6.5496 11.293-4.153 5.9432 5.279 3.5892-1.2664-7.0357c-0.15793-0.8624-0.09652-1.7101 0.14038-2.4967z"
+                    fill="#004098"
+                  />
+                  <path
+                    d="m6.8272 1.4285c0.26029 1.7276 0.88909 3.0882 1.1201 3.429 0.32171 0.48071 0.7487 1.0255 1.4301 0.79243 0.80428-0.27095 0.66978-1.0284 0.33926-1.6752-0.39775-0.96723-0.85984-2.0889-0.93881-3.094-0.06141-0.54188-0.5586-0.9381-1.1084-0.874-1.085 0.12527-0.8423 1.4217-0.8423 1.4217z"
+                    fill="#F6AD3C"
+                  />
+                  <path
+                    d="m15.692 0.4555c-0.7516 0.33795-1.8103 2.2986-1.9185 2.5521-0.1083 0.25346-0.5674 1.1362-0.1931 1.6315 0.1989 0.2622 0.6405 0.63511 1.3278 0.28842 0.7019-0.35251 0.4446-1.681 1.8893-2.8988 0.389-0.32921 0.5177-0.86235 0.2252-1.2615-0.2193-0.29716-0.6492-0.61763-1.3307-0.31173z"
+                    fill="#F6AD3C"
+                  />
+                  <path
+                    d="m21.278 7.7592c0.4826-0.09323 0.8014-0.56227 0.7049-1.0459-0.0966-0.48653-0.4329-0.7633-1.0529-0.70212-1.1318 0.11362-1.825 0.18354-3.2112 0.62929-0.506 0.16314-0.5733 0.74581-0.3335 1.177 0.2486 0.42826 0.4855 0.57102 1.1582 0.4137 0 0.00291 1.8454-0.32047 2.7345-0.47196z"
+                    fill="#F6AD3C"
+                  />
+                  <path
+                    d="m2.2678 6.8124c0.66974 0.86235 2.483 2.1617 3.4452 1.7218 0.47964-0.2185 1.1406-1.4334-0.73408-1.9898-0.63757-0.18937-0.89201-0.55936-1.3249-1.0634-0.34511-0.40204-0.97683-0.39622-1.36-0.02622-0.3802 0.36999-0.39482 0.97597-0.02632 1.3576z"
+                    fill="#F6AD3C"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <rect width="24" height="24" fill="#fff" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+            <span class="frame_header_list-item-text">關於公視</span>
+          </a>
+        </li>
+        <li class="frame_header_list-item">
+          <a
+            title="English"
+            href="https://about.pts.org.tw/en/"
+            class="frame_header_list-item-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <span class="frame_header_list-item-text">English</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <nav class="navbar" role="navigation">
+      <div class="nav-wrapper container"><a class="brand-logo" href="https://www.pts.org.tw/"> 
+          <div>公視</div></a>
+        <ul class="right hide-on-med-and-down" id="icon">
+          <li><a class="latestnews" href="https://about.pts.org.tw/pr/latestnews/"><div>最新消息</div></a></li>
+          <li><a class="shopping" href="//shop.pts.org.tw/"><div>公視商城</div></a></li>
+          <li>
+            <div class="search">
+              <div id="cse-search-form">
+                <script>
+                  (function () {
+                  var cx = '015042921252931929020:6zt_aijyxqo';
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+                <gcse:searchbox-only enableautocomplete="true" resultsurl="https://www.pts.org.tw/~search/?q="></gcse:searchbox-only>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="right hide-on-med-and-down" id="menu">
+          <li style='width:62px'><a href="//news.pts.org.tw"> <span class="hover">NEWS</span><span class="normal">新聞</span></a></li>
+          <li style='width:73px'><a href="https://www.pts.org.tw/program.html"> <span class="hover">shows</span><span class="normal">節目</span></a></li>
+          <li style='width:105px'><a href="http://web.pts.org.tw/php/programX/main.php"> <span class="hover">schedules</span><span class="normal">節目表</span></a></li>
+          <li style='width:78px'><a href="https://friends.pts.org.tw/index.php"> <span class="hover">donate</span><span class="normal">贊助</span></a></li>
+          <li style='width:108px'><a href="https://about.pts.org.tw/cp/drama/"> <span class="hover">submission</span><span class="normal">節目徵案</span></a></li>
+        </ul>
+        <ul class="sidenav" id="nav-mobile">
+          <li>
+            <div class="search">
+              <div id="cse-search-form">
+                <script>
+                  (function () {
+                  var cx = '015042921252931929020:6zt_aijyxqo';
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+                <gcse:searchbox-only enableautocomplete="true" resultsurl="https://www.pts.org.tw/~search/?q="></gcse:searchbox-only>
+              </div>
+            </div>
+          </li>
+          <li><a href="//news.pts.org.tw">新聞</a></li>
+          <li><a href="https://www.pts.org.tw/program.html">節目</a></li>
+          <li><a href="//web.pts.org.tw/php/programX/main.php">節目表</a></li>
+          <li><a href="https://friends.pts.org.tw/index.php">贊助公視</a></li>
+          <li><a href="https://about.pts.org.tw/cp/drama/">節目徵案</a></li>
+          <li><a href="https://about.pts.org.tw/pr/latestnews/">最新消息</a></li>
+          <li><a href="//shop.pts.org.tw/">網路商城</a></li>
+        </ul><a class="sidenav-trigger" href="#" data-target="nav-mobile"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>    <div class="slide">
+      <div class="owl-carousel" id="slide-list">
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/bbf3b12d-8564-445c-aa1a-2025ff98d257">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707099275v.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">群 The Swarm</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】改編自國際暢銷同名原著，由《冰與火之歌：權力遊戲》監製法蘭克道格操刀，華麗的跨國演員陣容是一大賣點，更是木村拓哉首部進軍國際影壇之作</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/3f4a36b2-cdc9-40c5-b32a-0cbfd079848e">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707100257i.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">勇闖天際線</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】公視與國際團隊合作，耗時四年拍攝，以水鳥為主角，追蹤黦鷸、哈德遜塍鷸、紅腹濱鷸等三種水鳥，知名歌手安溥為本片主述配音</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/subject/1a9aa715-333a-4677-bd99-340e1444b561">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707096883y.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">2024新春追劇</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】《牛車來去》《生命捕手》《國際橋牌社》《村裡來了個暴走女外科》《我們與惡的距離》......</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/subject/737ae462-2364-4def-8a34-a303e01762e0">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707097453t.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">2024新春電影視界</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】《再見街貓BOB》《摩鐵路之城》《弓蕉園的秘密》《討債女王》《海倫她媽》《無常日常》《自由的向望》......</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/subject/50f33c28-d484-4159-aff5-4f3044e4ac32">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707097724z.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">2024新春短片魅力</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】《春水奇譚》《幽暗小徑的鬼》《金魚》《有了?!》《悄悄告訴她》《還有很多魚》《沙發是條DOG》《屍舞》《演習》......</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/2c50cf8b-b7b9-4e04-8641-de81a6f3efce">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707205634t.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">一字千金 筆武大匯</div>
+              <div class="article-desc hide-on-small-only"><span>【2024新春特別版】今年新年特輯的超強卡司，除了電視上的熟面孔，還有在地深耕的從政青年，以及在民間臥虎藏龍的超狂長者！</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/8f6d9799-34c8-40bb-9ab2-48e7f9598e4c">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707101176f.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">動物秘密一籮筐</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】 (全二季) BBC最具娛樂性的動物秘密生活偷拍系列。內容將以愛、智慧、友誼與惡作劇為主題看大象阿姨如何當接生婆、園丁鳥如何布置家園吸引異性</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/dab49ff9-e0f6-4620-b139-e79c479e8af0">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1706845356b.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">邁向權力之路</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】台灣民主制度的自由值得驕傲，但台灣民主深化了嗎？紀錄片導演李惠仁作品《邁向權力之路》反思民主自由真諦</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/a64f2120-db1a-40f1-9133-376ca7d9a4b3">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707097969d.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">小孩酷斯拉</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】發掘世界各地7-15歲酷小孩故事，這些孩子的”酷”來自他們對自我價值的堅持，跨越現實考驗，相信自己有無限的可能。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/d6b1cf47-62e1-454a-977b-ab5021b698e0">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707101688e.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">浩克慢遊</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】榮獲金鐘58生活風格節目主持人獎。由劉克襄、王浩一擔任節目主持人，每集規劃兩天一夜或三天兩夜的小旅行，從不同的視野認識台灣。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/d2653a38-21de-4793-b60e-f3d2bcb7c3e0">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707102127z.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">誰來晚餐</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】每一集紀錄一個台灣家庭，並邀請他們的夢幻嘉賓到家裡，一同分享彼此的生活經驗、意見、人生觀，是最能寫實台灣的真人實境秀。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/f1024457-1dfc-4551-99a5-10b50198c212">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707102759l.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">哈囉！你給問嗎？</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】新形態討論政治的節目，我們不要「炎上」，只是想正向溝通、討論解決問題的方法。讓我們一起來關心、並參與公共事務，重建一個良性循環的政治環境。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/2d9322fc-889e-48b5-b37d-642fd704effa">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707114168y.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">我在工場拍拍手</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】走訪全台16個工"場"，包括：飛機維修廠、遊艇製造廠、酪農場、螺絲廠、麵包廠、伐木場、米酒廠、玻璃工廠、家具工廠…等，彰顯產品製造的細節美學</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/2758c4b8-8e25-4d10-8dae-2d0978345c98">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1701055965s.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">生命捕手</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】杜樂生，一位醫術高明的醫生，因為一場大地震奪走了他親愛的人，人生就此改變。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/6ace5111-0637-435c-bc35-d5c8b80f1d14">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1707188560m.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">牛車來去</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】1943年代台灣光復前後，台南貧農阿春為了農作改善家人生活，答應地主以換取一頭牛的代價借腹生子。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/7da72c97-6830-4849-9d1b-1dc146015312">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1704787363z.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">國際橋牌社</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】(三季全)90年代的台灣，國際局勢像一場牌局，台灣像上不了牌桌的籌碼，雖然不是世界局勢的中心，但各國的角力都在台灣。</span></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/55585715-e0e9-4e9f-8956-112319ecd7ac">
+            <div class="item-img" style="background-image:url('https://www.pts.org.tw/HomePage/home_images/slide/1704772110j.jpg')"></div>
+            <div class="item-title hide-on-small-only"></div>
+            <div class="item-article">
+              <div class="article-title">我們與惡的距離</div>
+              <div class="article-desc hide-on-small-only"><span>【公視+線上看】宋喬安的兒子二年前因李曉明無差別殺人事件罹難，夫妻因現實磨難準備離婚，11歲的女兒卻日漸失序。</span></div>
+            </div>
+          </a></div>
+   
+      </div>
+    </div>
+    <div class="live">
+      <div class="container">
+        <div class="item pts">
+          <div class="title"><img src="https://www.pts.org.tw/HomePage/_images/title_pts.jpg"/></div>
+          <div class="program now"> 
+            <span class="time">Loading...</span>
+            <span class="show"></span>
+          </div>
+          <div class="program next"> 
+            <span class="time">Loading...</span>
+            <span class="show"></span>
+          </div>
+        </div>
+        <div class="item pts2">
+          <div class="title"><a href="//taigi.pts.org.tw/"><img src="https://www.pts.org.tw/HomePage/_images/title_pts2.jpg"/></a></div>
+          <div class="program now"> 
+            <span class="time">Loading...</span>
+            <span class="show"></span>
+          </div>
+          <div class="program next"> 
+            <span class="time">Loading...</span>
+            <span class="show"></span>
+          </div>
+        </div>
+        <div class="item pts3">
+          <div class="title">
+            <!--
+            <a href="//pts_3.pts.org.tw/">
+              <img src="https://www.pts.org.tw/HomePage/_images/title_pts3.jpg"/>
+            </a>
+            -->
+            <img src="https://www.pts.org.tw/HomePage/_images/title_pts3.jpg"/>
+          </div>
+          <div class="program now"> 
+            <span class="time">Loading...</span>
+            <span class="show"></span>
+          </div>
+          <div class="program next"> 
+            <span class="time">Loading...</span>
+            <span class="show"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="topnews">
+      <div class="container">
+        <div class="topnews-title"><img src="https://www.pts.org.tw/HomePage/_images/title_topnews.png"/></div>
+        <div class="owl-carousel" id="topnews-list">
+   
+          <div class="item"><a href="//news.pts.org.tw/article/680383"  target="_news">
+            <div class="item-img" style="background-image:url('https://news-data.pts.org.tw/media/193233/conversions/cover-webp.webp')"></div>
+            <div class="item-article">
+              <div class="article-title">除夕到初一最冷 圍爐守歲與出門拜年需注意保暖</div>
+              <div class="article-desc hide-on-small-and-down"><p>除夕各地零星降雨，濕冷感受明顯，苗栗三灣上午低溫8.9°C、桃園市茶改場也僅有9.1°C、新竹新豐9.3°C。</p><p>氣象署發布低溫特報，西半部地區苗栗以北以及金門，這兩天會有持續10°C左右低溫、馬祖低溫僅有6°C，寒冷感受明顯，一直要到初一起，水氣減少、各地白天回溫，日夜溫差大。</p><p>氣象署預報員葉致均指出，「冷空氣最強的時間點應該就是落在這幾天，就是除夕跟初一這2天。那可以看到其實基本上，尤其在中部以北，低溫大概就是落在10到12度左右，不過後期尤其像是在初二初三的時候，因為還是有些輻射冷卻的影響，所以有些空曠地區的溫度可能會再更低一些些。」</p><p>初一到初三全台仍受強烈大陸冷氣團影響，北部及東北部感受寒冷，其他地區早晚寒冷；初三白天起，強烈大陸冷氣團減弱，氣溫開始回升，要到初六才會再有冷空氣報到。</p><p>國道路況部分，國1、國3預計在除夕中午左右會有一波南下車潮；國5南下則在上午10時後車多，預計持續到下午4時。</p><p>國道預報員陳立哲提醒，「國5南向的用路人，建議您在早上5點前或是下午5點後出發。替代道路的部分，國1、國3的用路人請多利用台61線西濱快速公路。」</p><p>高公局預估，接下來南向交通壅塞時間點將落在在初一至初三，其中初二南下交通量最大，約為平日的1.5倍。北返車流則會在初三開始，屆時將實施高承載管制，請用路人留意。</p></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="//news.pts.org.tw/article/680382"  target="_news">
+            <div class="item-img" style="background-image:url('https://news-data.pts.org.tw/media/193234/conversions/cover-webp.webp')"></div>
+            <div class="item-article">
+              <div class="article-title">小客車撞毀變電箱 台南新化凌晨大停電</div>
+              <div class="article-desc hide-on-small-and-down"><p>台電變電箱被撞到歪斜，大批台電人員出動搶修，台南新化區中正路上這一處台電變電箱，9日凌晨被1輛紅色轎車衝撞，導致變壓器損壞，造成附近大停電，緊急調來2個新電箱更換。</p><p>台南市警局新化所副所長范耕鳴說明，「2時44分許於中正路發生1起民眾駕車自撞交通事故，經調查該員無酒駕情形，酒測值為零，全案依A3交通事故處理。」</p><p>因為大停電也影響交通號誌無法運作，警方也出動站在路口指揮交通、協助行人過馬路。</p><p>台電初估影響67戶，尤其正逢除夕圍爐前夕，不少民眾忙著準備年夜飯，只能暫停等電力恢復。</p><p>民眾表示，「飯現在不能煮，也沒東西可準備，沒電，乾料就乾料，要煮的等下看電恢復情況。」、「門不能打開，只能從後面出來。最嚴重的問題是，萬一民眾家中需要急救。」</p><p>民眾家中漆黑一片，又擔心停電過久導致冰箱內年夜飯食材壞掉，還有民眾家中電動鐵門無法打開，靠著手動開門，紛紛跑出來關心搶修情況。</p><p>原本台電預估下午1時前復電，緊急搶修後提前2小時完成，讓民眾除夕夜不用擔心無電可用。</p></div>
+            </div>
+          </a></div>
+   
+          <div class="item"><a href="//news.pts.org.tw/article/680381"  target="_news">
+            <div class="item-img" style="background-image:url('https://news-data.pts.org.tw/media/193237/conversions/cover-webp.webp')"></div>
+            <div class="item-article">
+              <div class="article-title">瓜地馬拉新任總統重申 無意破壞與台邦交</div>
+              <div class="article-desc hide-on-small-and-down"><p>我友邦瓜地馬拉總統阿雷瓦洛上台後，瓜國釋出與中國擴大經貿關係的訊息。</p><p>7日瓜國外交部先是重申繼續承認台灣是獨立國家；阿雷瓦洛8日接受路透社專訪，上任後首度回應台灣問題，重申台瓜邦交以及對中國貿易並行的說法。</p><p>瓜地馬拉總統阿雷瓦洛提及，「與台灣的外交關係，以及與中華人民共和國的貿易關係，將繼續發展。作為政府，我們的使命是擴大與世界所有國家的貿易關係，因為這是融入國際貿易的一部分，我們將與台灣保持外交關係。」</p><p>不過阿雷瓦洛的想法是否行得通，中國先前即曾表示「一中原則」是中國和所有國家合作的根本前提，希望瓜國盡早做出正確決斷。</p><p>中國國家主席習近平說道，「和香港特別行政區同胞、澳門特別行政區同胞、台灣同胞、海外僑胞拜年。」</p><p>中國國家主席習近平8日在春節團拜中，一如往常向港澳台民眾拜年，發表談話中也強調堅決反對「台獨」分裂以及外部勢力干涉，捍衛國家主權。</p><p>副總統賴清德表示，「從小就在這邊拜拜呀，從我祖父開始每一年的除夕都來承天宮參拜、祈求平安，所以這個是代代相傳。」</p><p>準總統賴清德除夕一早便到金山的承天宮參拜，並且發放小福袋，並未回應暫停赴陸團攬客及瘦肉精等政治議題。</p></div>
+            </div>
+          </a></div>
+          </div>
+      </div>
+    </div>
+    <div class="news">
+      <div class="container">     
+        <div class="ptsnews">
+          <a href="//news.pts.org.tw/" target="_news"><div class="ptsnews-title"></div></a>
+   
+          <div class="article"><a href="//news.pts.org.tw/article/680380" target="_news">
+              <div class="item-image"><img src="https://news-data.pts.org.tw/media/193235/conversions/cover-webp.webp"/></div>
+              <div class="item-desc">雙北首長慰問警消醫 感謝春節堅守崗位</div>
+          </a></div>
+   
+          <div class="article"><a href="//news.pts.org.tw/article/680379" target="_news">
+              <div class="item-image"><img src="https://news-data.pts.org.tw/media/193236/conversions/cover-webp.webp"/></div>
+              <div class="item-desc">台中第5市場百元年菜微漲 買氣仍強強滾</div>
+          </a></div>
+          </div>
+        <div class="peopo">
+          <a href="//www.peopo.org/" target="_news"><div class="peopo-title"></div></a>
+          <div class="article"><a href="https://www.peopo.org/news/673640" target="_news">
+              <div class="item-image"><img src="https://www.peopo.org/files/public/styles/large/public/images/2008/20231112_184730.jpg?itok=c1W32Gmi"/></div>
+              <div class="item-desc">光．影流逝...</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ptsplus">
+      <div class="container">
+        <div class="ptsplus-title"><a href="https://www.ptsplus.tv/" target="_ptsplus"><div class="title-image"></div></a></div>
+        <div class="owl-carousel" id="ptsplus-list">
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/2758c4b8-8e25-4d10-8dae-2d0978345c98" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1701833630g.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">生命捕手</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/1f7194b7-2bef-45d2-8fd3-89a50f746879" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1701844460p.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">要活、要愛、要記得笑</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/184d8c6a-26e7-4c6d-9754-c0a2602f14c3" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1701844356v.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">我的不正常才算正常</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/85ce136e-5817-437f-ab7d-a8abf528d765" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1701844294r.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">成為更好的家人</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/f1024457-1dfc-4551-99a5-10b50198c212" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1699351070b.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">哈囉！你給問嗎？</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/44a723c3-3b2a-4781-aa52-ad19516af6b3" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1699351025p.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">敢動應援團</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/a64f2120-db1a-40f1-9133-376ca7d9a4b3" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1699264585k.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">小孩酷斯拉</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/2a6f4b0c-efe2-4d1b-aa72-5483ce7ce778" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1692588305e.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">一字千金-筆武大匯</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/4ee6fab5-4ad9-4870-943c-a6a17e5eb19f" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1699351168h.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">綠色星球</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/8f6d9799-34c8-40bb-9ab2-48e7f9598e4c" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1692588551r.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">動物秘密一籮筐</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/90418f02-4d2d-4d4a-ae07-122769587268" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1699866291p.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">柏靈頓:熊熊歷險記</div>
+              </div></a>
+          </div>
+   
+          <div class="item"><a href="https://www.ptsplus.tv/zh/programs/041f4a9b-0d1a-4f7c-ac51-a5d24004d039" target="_ptsplus">
+              <div class="item-img"><img src="https://www.pts.org.tw/HomePage/home_images/ptsplus/1699350966l.jpg"/></div>
+              <div class="item-article">
+                <div class="article-title">百姓貴族</div>
+              </div></a>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="container">
+        <div class="event-title"></div>
+        <ul class="event-list"> 
+   
+          <li class="event-item"><a class="clickevent" data-id="2" data-link="http://www.parliamentarytv.org.tw/" data-cate="event">
+              <div class="event-image"><img src="https://www.pts.org.tw/HomePage/home_images/event/1548319983u.jpg"/></div>
+              <div class="event-article">
+                <div class="article-title">立法院議事轉播</div>
+                <div class="article-desc"></div>
+              </div></a>
+          </li>
+   
+          <li class="event-item"><a class="clickevent" data-id="314" data-link="https://www.fruitypei.tw/dragonquiz/" data-cate="event">
+              <div class="event-image"><img src="https://www.pts.org.tw/HomePage/home_images/event/1706172397w.gif"/></div>
+              <div class="event-article">
+                <div class="article-title">水果冰淇淋迎龍年活動</div>
+                <div class="article-desc">龍騰虎躍迎新年，快來闖關拿紅包！</div>
+              </div></a>
+          </li>
+   
+          <li class="event-item"><a class="clickevent" data-id="312" data-link="https://www.monsterfruit.tw/dragonyear" data-cate="event">
+              <div class="event-image"><img src="https://www.pts.org.tw/HomePage/home_images/event/1705904366f.gif"/></div>
+              <div class="event-article">
+                <div class="article-title">妖果龍年來送禮</div>
+                <div class="article-desc">2/6起，快快接滿龍年幸運物，妖幣送給你。</div>
+              </div></a>
+          </li>
+   
+          <li class="event-item"><a class="clickevent" data-id="311" data-link="https://open-call.pts.org.tw/lifestory/apply/preliminary/regulations" data-cate="event">
+              <div class="event-image"><img src="https://www.pts.org.tw/HomePage/home_images/event/1705565953r.jpg"/></div>
+              <div class="event-article">
+                <div class="article-title">公視人生劇展公開徵案</div>
+                <div class="article-desc">線上報名期間自3.18~3.22止</div>
+              </div></a>
+          </li>
+   
+          <li class="event-item"><a class="clickevent" data-id="282" data-link="https://www.monsterfruit.tw/" data-cate="event">
+              <div class="event-image"><img src="https://www.pts.org.tw/HomePage/home_images/event/1691479869q.gif"/></div>
+              <div class="event-article">
+                <div class="article-title">妖果秘密福利社</div>
+                <div class="article-desc">妖果最寵粉，活動滿滿檔，好物快快換</div>
+              </div></a>
+          </li>
+   
+          <li class="event-item"><a class="clickevent" data-id="216" data-link="https://www.ptskids.tw/" data-cate="event">
+              <div class="event-image"><img src="https://www.pts.org.tw/HomePage/home_images/event/1658465259e.gif"/></div>
+              <div class="event-article">
+                <div class="article-title">公視兒少教育資源網</div>
+                <div class="article-desc">歡迎運用公視影音，改變教室風景</div>
+              </div></a>
+          </li>
+            
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-nav-group">
+          <div class="footer-nav-item">
+            <div class="footer-nav-icon"><div class="icon group">公廣集團</div></div>
+            <div class="footer-nav-title">公廣集團</div>
+            <ul class="footer-list">
+              <li><a href="https://www.pts.org.tw/" target="_blank">公共電視</a></li>
+              <li><a href="https://about.pts.org.tw/en/" target="_blank">PTS Taiwan (English)</a></li>
+              <li><a href="//taigi.pts.org.tw/" target="_blank">公視台語台</a></li>
+              <li><a href="//www.cts.com.tw/" target="_blank">中華電視公司</a></li>
+              <li><a href="//www.hakkatv.org.tw/" target="_blank">客家電視台</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-item">
+            <div class="footer-nav-icon"><div class="icon web">主題網站</div></div>
+            <div class="footer-nav-title">主題網站</div>
+            <ul class="footer-list">
+              <li><a href="//news.pts.org.tw" target="_blank">公視新聞網</a></li>
+              <li><a href="https://www.ptsplus.tv/" target="_blank">公視+</a></li>    
+              <li><a href="//newslab.pts.org.tw/" target="_blank">公視P#新聞實驗室</a></li>
+              <li><a href="//www.peopo.org/" target="_blank">PeoPo 公民新聞</a></li>
+              <li><a href="//4k.pts.org.tw/" target="_blank">公視4K網站</a></li>
+              <li><a href="https://projects.pts.org.tw/homebook/" target="_blank">公視遊戲本</a></li>
+              <li><a href="https://rnd.pts.org.tw/" target="_blank">岩花館</a></li>
+              <li><a href="//www.parliamentarytv.org.tw/" target="_blank">國會頻道轉播</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-item">
+            <div class="footer-nav-icon"><div class="icon service">公視服務</div></div>
+            <div class="footer-nav-title">公視服務</div>
+            <ul class="footer-list">
+              <li><a href="//info.pts.org.tw/">公開資訊</a></li>
+              <li><a href="//info.pts.org.tw/%E5%B9%B4%E5%A0%B1%E5%8F%8A%E8%A8%8A%E6%81%AF%E5%B0%88%E5%8D%80/%E5%A6%82%E4%BD%95%E6%94%B6%E7%9C%8B">如何收看</a></li>
+              <li><a href="https://visit.pts.org.tw/">參觀公視</a></li>
+              <li><a href="https://www.pts.org.tw/student/">公視實習</a></li>
+              <li><a href="https://events.pts.org.tw/localpartners/">公視在地夥伴</a></li>
+              <li><a href="//info.pts.org.tw/%E7%A7%9F%E8%B3%83%E6%9C%8D%E5%8B%99/rent">租賃服務</a></li>
+              <li><a href="https://about.pts.org.tw/pr/career/">公視徵才</a></li>
+              <li><a href="https://about.pts.org.tw/pr/tender/">公開招標</a></li>
+              <li><a href="//npo.pts.org.tw/">公益網</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-item">
+            <div class="footer-nav-icon"><div class="icon contect">觀眾服務</div></div>
+            <div class="footer-nav-title">觀眾服務</div>
+            <ul class="footer-list">
+              <li><a href="//crm.pts.org.tw/">線上客服</a></li>
+              <li><a href="http://web.pts.org.tw/php/programX/main.php">節目表</a></li>
+              <li><a href="https://about.pts.org.tw/appeal/pts/">節目申訴</a></li>
+              <li><a href="https://about.pts.org.tw/appeal/report/">受理檢舉</a></li>
+              <li><a href="https://about.pts.org.tw/service/followpts.html">社群/APP</a></li>
+              <li><a href="https://about.pts.org.tw/rss/index.html">RSS</a></li>
+              <li><a href="https://about.pts.org.tw/service/terms.html">網站服務條款</a></li>
+              <li><a href="https://www.pts.org.tw/ptsfamily/">公視各台頻道表</a></li>
+              <li><a href="//www.youtube.com/channel/UCXgIO9jJVsX5_2ideiSkfvA" target="_blank">公視直播</a></li>
+              <li><a href="https://about.pts.org.tw/pr/station/">收視不良公告</a></li> 
+            </ul>
+          </div>
+          <div class="footer-nav-item">
+            <div class="footer-nav-icon"><div class="icon shop">商品與贊助</div></div>
+            <div class="footer-nav-title">商品與贊助</div>
+            <ul class="footer-list">
+              <li><a href="//shop.pts.org.tw/">公視商城</a></li>
+              <li><a href="https://friends.pts.org.tw/index.php">贊助公視</a></li>
+              <li><a href="https://friends.pts.org.tw/business.php">企業贊助</a></li>
+              <li>訂閱 / 取消電子報
+                <div class="e-newsletter">
+                  <input id="e-newsletter" placeholder="請填寫 e-mail" type="text" onkeydown="if(event.keyCode==13) takeSubscribe();"/>
+                  <button type="button" onclick="takeSubscribe();">送出</button>
+                </div>
+              </li>
+              <li>
+                <ul class="info">
+                  <li>財團法人公共電視文化事業基金會</li>
+                  <li>114台北市內湖區康寧路三段75巷50號</li>
+                  <li>客服專線: 02-26332000</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <ul class="social-icons">
+            <li><a href="//goo.gl/eT9bhJ" target="_blank"><i class="fb-icon"></i></a></li>
+            <li><a href="//goo.gl/bjgG30" target="_blank"><i class="youtube-icon"></i></a></li>
+            <li><a href="https://www.pts.org.tw/pts_telegram/" target="_blank"><i class="telegram-icon"></i></a></li>
+          </ul>
+          <public>Taiwan Public Television Service Foundation. © All Rights Reserved.</public>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts-->
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://www.pts.org.tw/HomePage/_js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://www.pts.org.tw/homepage/js/takeSubscribe.js?v=1.01" type="text/javascript"></script>
+    <script src="https://www.pts.org.tw/HomePage/_js/init.js"></script>
+  </body>
+</html>
