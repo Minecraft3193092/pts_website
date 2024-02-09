@@ -1,0 +1,5 @@
+@media only screen and (min-width: 993px) {
+  .slide .item-img {
+    height: calc(100vh - 52px - 98px);
+  }
+}
